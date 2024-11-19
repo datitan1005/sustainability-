@@ -13,11 +13,10 @@
             background-position: center; 
             color: black; /* Change text color to black */
         }
-        header, section, footer { 
-            background: rgba(255, 255, 255, 0.9); /* Adding a white background with some opacity for readability */
-            padding: 10px 20px; 
-            opacity: 0;
-            animation: fadeIn 1s forwards;
+        .text-background {
+            background: rgba(255, 255, 255, 0.8); /* White background with some opacity */
+            padding: 10px; /* Add padding for better readability */
+            border-radius: 5px; /* Add some rounding for aesthetics */
         }
         nav ul { 
             list-style-type: none; 
@@ -40,12 +39,6 @@
         }
         nav a:hover { 
             background: rgba(255, 255, 255, 1); /* Light background on hover */
-        }
-        h1, h2, p { 
-            color: black; /* Change text color to black */
-            background: rgba(255, 255, 255, 0.9); /* Adding a white background with some opacity for readability */
-            padding: 10px; /* Add padding for better readability */
-            border-radius: 5px; /* Add some rounding for aesthetics */
         }
         section { 
             margin: 20px 0; 
@@ -82,7 +75,7 @@
     </style>
 </head>
 <body>
-    <header>
+    <header class="text-background">
         <h1>ZERO HUNGER PROJECT, GROUP 3</h1>
         <nav>
             <ul>
@@ -92,7 +85,7 @@
             </ul>
         </nav>
     </header>
-    <section id="about">
+    <section id="about" class="text-background">
         <h2>About</h2>
         <p>Our project focuses on repurposing fruit leftovers to make nutritious fruit smoothies. This initiative not only reduces food waste but also provides healthy options for our community. We believe that small changes in our daily habits can lead to significant improvements in food security and environmental sustainability.</p>
         <p>In addition to making fruit smoothies, we also teach people about the importance of reducing food waste and how they can contribute to zero hunger efforts. We encourage everyone to share their experiences, spread the word, and participate in our mission to eradicate hunger.</p>
@@ -107,10 +100,8 @@
         <p>Our personal delivery approach proved to be an effective way of fostering deeper connections and making the message more relatable. They valued the effort we put in both preparing the smoothies and educating others about SDG#2. They also expressed that they would try their best to reduce waste and help spread the message further.</p>
         <p>This experience taught us that addressing hunger and promoting food security is not only about providing food but also raising awareness and inspiring others to act. The combination of a simple, enjoyable activity and an important conversation left a lasting impact, reinforcing our belief that everyone has a role to play in achieving a hunger-free world.</p>
     </section>
-    <footer>
+    <footer class="text-background">
         <p>&copy; 2024 BY KENTA MBOYANO. All rights reserved.</p>
     </footer>
 </body>
 </html>
-
-
