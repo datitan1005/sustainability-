@@ -65,9 +65,17 @@
             text-align: center; 
         }
         .fallback-message {
+            background: rgba(255, 255, 255, 0.8); /* White background with some opacity */
+            padding: 10px; /* Add padding for better readability */
+            border-radius: 5px; /* Add some rounding for aesthetics */
             color: red; /* Change text color for the fallback message */
             text-align: center;
             margin-top: 20px;
+        }
+        .fallback-message a {
+            color: blue; /* Make the fallback link more visible */
+            font-weight: bold;
+            text-decoration: underline;
         }
         @keyframes fadeIn {
             to { opacity: 1; }
@@ -92,7 +100,7 @@
         <h3>Project Video</h3>
         <iframe width="560" height="315" src="https://youtu.be/8KfaSOXcBnA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <div class="fallback-message">
-            <p>If the video cannot be loaded, you can watch it <a href="https://youtu.be/8KfaSOXcBnA" target="_blank" style="color: white;">here</a>.</p>
+            <p>If the video cannot be loaded, you can watch it <a href="https://youtu.be/8KfaSOXcBnA" target="_blank">here</a>.</p>
         </div>
         <h3>Our Commitment</h3>
         <p>We took this opportunity to explain the purpose behind our project. We highlighted how SDG#2 aims to end all forms of hunger and malnutrition by promoting access to nutritious food for everyone. We also stressed on how small daily decisions can contribute to achieving this global goal.</p>
